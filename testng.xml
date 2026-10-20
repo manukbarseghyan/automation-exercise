@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise Suite" verbose="2">
+    <test name="IDT test cases 1, 9, 16, 25">
+        <classes>
+            <class name="tests.RegisterUserTest"/>
+            <class name="tests.SearchProductTest"/>
+            <class name="tests.PlaceOrderLoginBeforeCheckoutTest"/>
+            <class name="tests.ScrollUpWithArrowTest"/>
+        </classes>
+    </test>
+</suite>

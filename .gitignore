@@ -1,0 +1,14 @@
+# Build output, reports, screenshots
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Local overrides (may contain credentials)
+src/test/resources/config-local.properties
+*.local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
